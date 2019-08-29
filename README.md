@@ -1,1 +1,1 @@
-This is the associated sample project code for [Using SSM Parameters with CloudFormation Templates and Terraform Projects]().
+This is the associated sample project code for [Using SSM Parameters with CloudFormation Templates and Terraform Projects](https://start.jcolemorrison.com/using-ssm-parameters-with-cloudformation-templates-and-terraform-projects/).

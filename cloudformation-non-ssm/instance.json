@@ -1,0 +1,23 @@
+{
+  "Description": "An instance without using SSM parameters in region us-east-1",
+  "Parameters": {
+    "ParamInstanceName": {
+      "Type": "String",
+      "Default": "jerrys-cfn-instance",
+      "Description": "Name of the EC2 instance"
+    }
+  },
+  "Resources": {
+    "ExampleInstance": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-0b898040803850657",
+        "InstanceType": "t2.micro",
+        "Tags": [{
+          "Key": "Name",
+          "Value": { "Ref": "ParamInstanceName" }
+        }]
+      }
+    }
+  }
+}

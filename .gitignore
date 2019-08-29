@@ -1,0 +1,6 @@
+terraform-non-ssm/.terraform/
+terraform-non-ssm/terraform.tfstate
+terraform-non-ssm/terraform.tfstate.backup
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
